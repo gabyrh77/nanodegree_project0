@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:layout_marginLeft">@dimen/activity_medium_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_medium_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_medium_margin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="ButtonStyle.Blue" parent="ButtonStyle">
+        <item name="android:background">@color/blue</item>
+    </style>
+    <style name="ButtonStyle.Purple" parent="ButtonStyle">
+        <item name="android:background">@color/purple</item>
+    </style>
+</resources>
